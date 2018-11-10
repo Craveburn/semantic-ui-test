@@ -1,5 +1,6 @@
 import React from 'react'
-import { Grid, Segment, Image } from 'semantic-ui-react'
+import { Grid, Segment, Image, Card } from 'semantic-ui-react'
+import './Grid.css'
 
 import Marcus from './MarcusMarinos.jpg'
 
@@ -34,18 +35,47 @@ const GridExampleStretched = () => (
             </Grid.Column>
         </Grid.Row>
 
-        <Grid.Row columns={3}>
+        <Grid.Row columns={4}>
+            {/* this is the break between images */}
             <Grid.Column>
-                <Segment><Image src={Marcus} fluid /></Segment>
+                <Segment>
+                    <Card fluid >
+                        <Image src={Marcus} />
+                        <Card.Content>
+                            <Card.Header>Marcus Marinos</Card.Header>
+                            <Card.Meta>Joined in 2016</Card.Meta>
+                            <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                        </Card.Content>
+                    </Card>
+                </Segment>
             </Grid.Column>
+            {/* this is the break between images */}
             <Grid.Column>
-                <Segment><Image src={Marcus} fluid /></Segment>
+                <Segment>
+                    <Card fluid >
+                        <Image src={Marcus} />
+                        <Card.Content>
+                            <Card.Header>Marcus Marinos</Card.Header>
+                            <Card.Meta>Joined in 2016</Card.Meta>
+                            <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                        </Card.Content>
+                    </Card>
+                </Segment>
             </Grid.Column>
+            {/* this is the break between images */}
             <Grid.Column>
-                <Segment><Image src={Marcus} fluid /></Segment>
+                <Segment>
+                    <Card fluid >
+                        <Image src={Marcus} />
+                        <Card.Content>
+                            <Card.Header>Marcus Marinos</Card.Header>
+                            <Card.Meta>Joined in 2016</Card.Meta>
+                            <Card.Description>Daniel is a comedian living in Nashville.</Card.Description>
+                        </Card.Content>
+                    </Card>
+                </Segment>
             </Grid.Column>
         </Grid.Row>
-
     </Grid>
 )
 
