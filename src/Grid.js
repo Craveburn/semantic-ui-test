@@ -9,10 +9,11 @@ const GridExampleStretched = () => (
         <Grid.Row columns={1}>
             <Grid.Column>
                 <Segment>
-                    A band of brothers. 3 by blood and 1 by choice. Their individual and collective taste
+                    <h2><b>A band of brothers. 3 by blood and 1 by choice.</b></h2>
+                    Their individual and collective taste
                     in music creates a sound that will make your ear holes wish they had taste buds. They have
                     many artists to give credit to for their musical inspiration such as Mac Demarco, Tame
-                    Impala, and Peach Pit.  Michael Marinos, the oldest of the 4 brothers, is the lead
+                    Impala, and Peach Pit. Michael Marinos, the oldest of the 4 brothers, is the lead
                     guitarist and vocalist in this psychedelic, new age, indie rock band. Before the formation
                     of Dad Bod, Michael was a solo musician, writing his own songs and performing them around
                     Utah. His writing style, experience and passion for music inspired the formation of Dad Bod.
